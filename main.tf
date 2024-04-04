@@ -33,6 +33,10 @@ resource "fastly_service_vcl" "mtfew" {
     request_condition = "all_requests"
   }
 
+  lifecycle {
+    ignore_changes = [dictionary, dynamicsnippet]
+  }
+
   force_destroy = true
 }
 
