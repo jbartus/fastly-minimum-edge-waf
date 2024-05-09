@@ -1,0 +1,6 @@
+site_name      = ""
+origin         = "httpbin.org"
+fastly_api_key = ""
+sigsci_corp    = ""
+sigsci_email   = ""
+sigsci_token   = ""
