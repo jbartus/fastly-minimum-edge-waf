@@ -11,8 +11,8 @@ this provides traffic graphs in the fastly ui, and attack data in the sigsci ui,
 
 ## howto
 ```
-git clone https://github.com/jbartus/mtfew.git
-cd mtfew/
+git clone https://github.com/jbartus/fastly-minimum-edge-waf.git
+cd fastly-minimum-edge-waf/
 terraform init
 cp terraform.tfvars.example terraform.tfvars
 # edit terraform.tfvars to populate the values
